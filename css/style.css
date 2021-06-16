@@ -181,3 +181,17 @@ body {
 .list-wrapper ul li {
     display: flex !important
 }
+
+/* Style the close button */
+.close {
+    /* posição*/
+    position: absolute; /*  */
+    right: 45px;  /* espaçamento na direita */
+    padding: 3px 4px 3px 4px; 
+  }
+
+  .close:hover {
+    background-color: #0f88ff;
+    color: white;
+  }
+
