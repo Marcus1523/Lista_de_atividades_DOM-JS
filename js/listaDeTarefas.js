@@ -4,17 +4,20 @@
     const inputTarefa = document.querySelector('[data-form-input]')
 
     function criarBotaoDelete() {
-        const criarBotaoDelete = document.createElement('span')
-        criarBotaoDelete.innerText = "X"
-        criarBotaoDelete.className = "close"
+        const botaoDelete = document.createElement('span')
+        botaoDelete.innerText = "X"
+        botaoDelete.className = "close"
 
-        criarBotaoDelete.addEventListener('click', deletarTarefa)
+        botaoDelete.addEventListener('click', deletarTarefa)
 
-        return criarBotaoDelete;
+        return botaoDelete;
     }
 
-    function deletarTarefa() {
-        console.log('Por favor, delete essa tarefa!')
+    function deletarTarefa(evento) {
+        const botaoDeleteClicado = evento.target //descobre o que foi clicado
+        const itemDaLista = botaoDeleteClicado.parentElement
+
+        itemDaLista.remove(); //remove o item da lista
     }
 
     function criarTarefa(evento) {
@@ -41,7 +44,6 @@
         //limpa o barra depois que adicionou uma nova tarefa
         inputTarefa.value = " "
     }
-
 
     //adiciona um evento quando o botão é precionado
     novaTarefa.addEventListener('click', criarTarefa)
