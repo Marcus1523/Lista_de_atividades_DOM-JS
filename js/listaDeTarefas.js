@@ -4,18 +4,18 @@
     const inputTarefa = document.querySelector('[data-form-input]')
 
     function criarBotaoDelete() {
-        const botaoDelete = document.createElement('span')
+        const botaoDelete = document.createElement('span') //span da a possibilidade de por o X
         botaoDelete.innerText = "X"
-        botaoDelete.className = "close"
+        botaoDelete.className = "close" 
 
-        botaoDelete.addEventListener('click', deletarTarefa)
+        botaoDelete.addEventListener('click', deletarTarefa)  //sempre queclcar no botão delete chama a função deletar tarefa e delata
 
         return botaoDelete;
     }
 
     function deletarTarefa(evento) {
         const botaoDeleteClicado = evento.target //descobre o que foi clicado
-        const itemDaLista = botaoDeleteClicado.parentElement
+        const itemDaLista = botaoDeleteClicado.parentElement  //descobre quem é o "pai"
 
         itemDaLista.remove(); //remove o item da lista
     }
