@@ -4,5 +4,6 @@ Nele criei uma pagina HTML que podemos escrever todas as coisas que queremos faz
 
 ## Passo a passo de instalação:
 1-clone o repositorio: (https://github.com/Marcus1523/Marcus_V-JS_DOM_2021.git);
+
 2-clique duas no arquivo "index.html" vezes e abra o arquivo no navegador.
 
