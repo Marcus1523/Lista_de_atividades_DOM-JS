@@ -10,8 +10,9 @@ Neste repositório criei uma pagina HTML com uma lista de atividades com algumas
 ## Passo a passo de instalação:
 1. clone o repositório: (https://github.com/Marcus1523/Lista_de_atividades_DOM-JS.git);
  * Botão direito e clique em Git Bash Here
- * eEscreva: git clone https://github.com/Marcus1523/Lista_de_atividades_DOM-JS.git
+ * Escreva: git clone https://github.com/Marcus1523/Lista_de_atividades_DOM-JS.git
  * Aperte "Enter"
+
 2. Abra a pasta clonada;
 
 3. Encontre o arquivo "index.html";
