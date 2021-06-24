@@ -13,6 +13,16 @@
         return botaoDelete;
     }
 
+    function criarbotaoConcluir(){
+       // <input type="checkbox" class="form-check-input">
+            const botaoConcluir = document.createElement('input')
+            botaoConcluir.setAttribute('type', 'checkbox')
+            botaoConcluir.classList = 'form-check-input'
+            botaoConcluir.addEventListener('click', concluirTarefa)
+
+            return botaoConcluir;
+    }
+
     function deletarTarefa(evento) {
         const botaoDeleteClicado = evento.target //descobre o que foi clicado
         const itemDaLista = botaoDeleteClicado.parentElement  //descobre quem é o "pai"
@@ -20,7 +30,14 @@
         itemDaLista.remove(); //remove o item da lista
     }
 
+    function concluirTarefa(evento){
+        const botaoConcluirClicado = evento.target
+        const itemDaListaConcluido = botaoConcluirClicado.parentElement
+        itemDaListaConcluido.classList.toggle('tarefa_concluida')
+    }
+
     function criarTarefa(evento) {
+        
         //O DOM assume o camando e não deixa carregar a pagina/ remove o "recarregar pagina" padrão do botão
         evento.preventDefault()
 
@@ -35,6 +52,9 @@
 
 
         novoItem = document.createElement('li')
+        novoItem.className = "lista_atividades"
+
+        novoItem.appendChild(criarbotaoConcluir()) //-------
         novoItem.appendChild(novaLabel)
         novoItem.appendChild(criarBotaoDelete())
 
@@ -42,7 +62,7 @@
         listaDeTarefas.appendChild(novoItem)
 
         //limpa o barra depois que adicionou uma nova tarefa
-        inputTarefa.value = " "
+        inputTarefa.value = ""
     }
 
     //adiciona um evento quando o botão é precionado
