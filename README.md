@@ -1,4 +1,4 @@
-# Lista de tarefa.
+# : Lista de tarefa.
 Neste repositório criei uma pagina HTML com uma lista de atividades com algumas funções como:
 * Adicionar mais tarefas quando quiser.
 
