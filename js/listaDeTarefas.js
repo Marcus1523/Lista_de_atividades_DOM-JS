@@ -1,26 +1,25 @@
 (() => { //não deixa o cod funcionar pois esta no modo anonimo para não vazar dados do cod.
     //chamando as "variaveis/funçoes" do botão e do input que estão no HTML.
     const novaTarefa = document.querySelector('[data-form-button]')
-    const inputTarefa = document.querySelector('[data-form-input]')
 
     function criarBotaoDelete() {
         const botaoDelete = document.createElement('span') //span da a possibilidade de por o X
         botaoDelete.innerText = "X"
-        botaoDelete.className = "close" 
+        botaoDelete.className = "close"
 
         botaoDelete.addEventListener('click', deletarTarefa)  //sempre queclcar no botão delete chama a função deletar tarefa e delata
 
         return botaoDelete;
     }
 
-    function criarbotaoConcluir(){
-       // <input type="checkbox" class="form-check-input">
-            const botaoConcluir = document.createElement('input')
-            botaoConcluir.setAttribute('type', 'checkbox')
-            botaoConcluir.classList = 'form-check-input'
-            botaoConcluir.addEventListener('click', concluirTarefa)
+    function criarbotaoConcluir() {
+        // <input type="checkbox" class="form-check-input">
+        const botaoConcluir = document.createElement('input')
+        botaoConcluir.setAttribute('type', 'checkbox')
+        botaoConcluir.classList = 'form-check-input'
+        botaoConcluir.addEventListener('click', concluirTarefa)
 
-            return botaoConcluir;
+        return botaoConcluir;
     }
 
     function deletarTarefa(evento) {
@@ -30,16 +29,17 @@
         itemDaLista.remove(); //remove o item da lista
     }
 
-    function concluirTarefa(evento){
+    function concluirTarefa(evento) {
         const botaoConcluirClicado = evento.target
         const itemDaListaConcluido = botaoConcluirClicado.parentElement
         itemDaListaConcluido.classList.toggle('tarefa_concluida')
     }
 
     function criarTarefa(evento) {
-        
         //O DOM assume o camando e não deixa carregar a pagina/ remove o "recarregar pagina" padrão do botão
         evento.preventDefault()
+        
+        const inputTarefa = document.querySelector('[data-form-input]')
 
         //pega a string da nova tarefa e adiciona na lista
         const valorTarefa = "- " + inputTarefa.value + "."
@@ -54,7 +54,7 @@
         novoItem = document.createElement('li')
         novoItem.className = "lista_atividades"
 
-        novoItem.appendChild(criarbotaoConcluir()) //-------
+        novoItem.appendChild(criarbotaoConcluir()) 
         novoItem.appendChild(novaLabel)
         novoItem.appendChild(criarBotaoDelete())
 
