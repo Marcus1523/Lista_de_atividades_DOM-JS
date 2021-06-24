@@ -6,6 +6,11 @@ Neste repositorio criei uma pagina HTML com uma lista de atividades com algumas 
 
 *Riscar algum item da lista quado ja foi feira
 
+# topics
+1. About
+2. Dependecies
+3. Etc
+
 
 ## Passo a passo de instalação:
 1-clone o repositorio: (https://github.com/Marcus1523/Marcus_V-JS_DOM_2021.git);
