@@ -1,14 +1,14 @@
 # Lista de tarefa.
-Neste repositorio criei uma pagina HTML com uma lista de atividades com algumas funçoes como:
+Neste repositório criei uma pagina HTML com uma lista de atividades com algumas funções como:
 * Adicionar mais tarefas quando quiser.
 
-* Remover itens da lista quando for nessesario.
+* Remover itens da lista quando for necessário.
 
-* Riscar algum item da lista quado ja foi feira
+* Riscar algum item da lista quando já foi feira
 
 
 ## Passo a passo de instalação:
-1. clone o repositorio: (https://github.com/Marcus1523/Marcus_V-JS_DOM_2021.git);
+1. clone o repositório: (https://github.com/Marcus1523/Marcus_V-JS_DOM_2021.git);
 
 2. Abra a pasta clonada;
 
@@ -17,9 +17,12 @@ Neste repositorio criei uma pagina HTML com uma lista de atividades com algumas 
 2. clique duas no arquivo e abra ele em seu navegador (de preferencia Chrome).
 
 # Autor
-Nome: Marcus Vinicius Ferreira Oliveira
-Email: marcus15233v@gmail.com
-Turma: 35 - DS - MT
-Numero: 29
-Escola: ETE FMC - https://www.etefmc.com.br/home
+Nome: Marcus Vinicius Ferreira Oliveira;
 
+E-mail: marcus15233v@gmail.com;
+
+Turma: 35 - DS - MT;
+
+Numero: 29;
+
+Escola: ETE FMC - https://www.etefmc.com.br/home
