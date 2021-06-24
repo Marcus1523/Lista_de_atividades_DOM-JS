@@ -1,10 +1,10 @@
 # Lista de tarefa.
 Neste repositorio criei uma pagina HTML com uma lista de atividades com algumas funçoes como:
-*Adicionar mais tarefas quando quiser.
+* Adicionar mais tarefas quando quiser.
 
-*Remover itens da lista quando for nessesario.
+* Remover itens da lista quando for nessesario.
 
-*Riscar algum item da lista quado ja foi feira
+* Riscar algum item da lista quado ja foi feira
 
 # topics
 1. About
