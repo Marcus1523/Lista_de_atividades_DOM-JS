@@ -8,7 +8,7 @@ Neste repositório criei uma pagina HTML com uma lista de atividades com algumas
 
 
 ## Passo a passo de instalação:
-1. clone o repositório: (https://github.com/Marcus1523/Marcus_V-JS_DOM_2021.git);
+1. clone o repositório: (https://github.com/Marcus1523/Lista_de_atividades_DOM-JS.git);
 
 2. Abra a pasta clonada;
 
