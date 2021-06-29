@@ -13,7 +13,7 @@ Neste repositório criei uma pagina HTML com uma lista de atividades com algumas
  * Escreva: git clone https://github.com/Marcus1523/Lista_de_atividades_DOM-JS.git
  * Aperte "Enter"
 
-2. Abra a pasta clonada no local.
+2. Abra a pasta clonada.
 
 3. Encontre o arquivo "index.html".
 
@@ -30,5 +30,5 @@ Numero: 29.
 
 Escola: ETE FMC - https://www.etefmc.com.br/home
 
-![ETE - FMC](https://user-images.githubusercontent.com/79937675/123857537-cc89bd00-d8f8-11eb-8cf2-78a4211986ef.png)
+![ETE - FMC](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmYGlYrcCZl5YpIceJd9In2YZbpvhq8xlGBg&usqp=CAU)
 
