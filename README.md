@@ -29,3 +29,6 @@ Turma: 35 - DS - MT.
 Numero: 29.
 
 Escola: ETE FMC - https://www.etefmc.com.br/home
+
+![ETE - FMC](https://user-images.githubusercontent.com/79937675/123857537-cc89bd00-d8f8-11eb-8cf2-78a4211986ef.png)
+
