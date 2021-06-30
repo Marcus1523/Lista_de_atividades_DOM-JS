@@ -7,7 +7,7 @@ Neste repositório criei uma pagina HTML com uma lista de atividades com algumas
 * Riscar algum item da lista quando já foi feira.
 
 
-![Lista de atividades](https://o.remove.bg/downloads/e23f3929-7a5d-4267-aa90-cdf0b616fc98/images-removebg-preview.png)
+![Lista de atividades](https://image.freepik.com/vetores-gratis/tarefa-concluida-lista-de-tarefas-mulher-e-lista-de-verificacao_116137-330.jpg)
 
 ## Passo a passo de instalação:
 1. clone o repositório:
