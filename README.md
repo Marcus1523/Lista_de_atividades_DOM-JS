@@ -7,7 +7,7 @@ Neste repositório criei uma pagina HTML com uma lista de atividades com algumas
 * Riscar algum item da lista quando já foi feira.
 
 
-![Lista de atividades](https://image.freepik.com/vetores-gratis/tarefa-concluida-lista-de-tarefas-mulher-e-lista-de-verificacao_116137-330.jpg)
+![Lista de atividades](https://image.flaticon.com/icons/png/512/2351/2351383.png)
 
 ## Passo a passo de instalação:
 1. clone o repositório:
